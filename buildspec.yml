@@ -16,4 +16,4 @@ phases:
       - apt install git  
   post_build:
     commands:
-      - apt-get autoremove
+      - apt install python
