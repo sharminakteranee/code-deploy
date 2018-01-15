@@ -13,7 +13,7 @@ phases:
       - apt install wget
   build:
     commands:
-      - apt install git
+      - apt install git  
   post_build:
     commands:
       - apt-get autoremove
