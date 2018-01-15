@@ -13,7 +13,7 @@ phases:
       - apt install wget
   build:
     commands:
-      - apt install apache
+      - apt install git
   post_build:
     commands:
-      - apt install curl
+      - apt-get autoremove
